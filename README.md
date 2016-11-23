@@ -1,4 +1,7 @@
 # lhcb-dirac-integration
 
+To run LHCb DIRAC jobs on Skygrid you wouldn eed:
 
-Running LHCb DIRAC jobs on skygrid may be performed with VAC/VCycle [script](https://lhcb-portal-dirac.cern.ch/pilot/user_data) with slight modifications and [cern/slc6-base](https://hub.docker.com/r/cern/slc6-base/) docker image.
+1. Modified version of VAC/VCycle [script](https://github.com/skygrid/lhcb-dirac-integration/blob/master/skygrid_execution_script.sh)
+2. [cern/slc6-base](https://hub.docker.com/r/cern/slc6-base/) docker image
+3. LHCb host certificate which DN is configured in DIRAC system
